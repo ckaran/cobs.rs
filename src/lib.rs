@@ -1,5 +1,3 @@
-#![cfg_attr(not(feature = "use_std"), no_std)]
-
 #[derive(Debug)]
 pub struct CobsEncoder<'a> {
     dest: &'a mut [u8],
